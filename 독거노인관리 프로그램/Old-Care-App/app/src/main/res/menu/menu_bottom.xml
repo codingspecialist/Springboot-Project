@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="홈"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab2"
+        android:enabled="true"
+        android:icon="@drawable/person"
+        android:title="인체감지"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/temperature"
+        android:title="온●습도"
+        />
+    <item
+        android:id="@+id/tab4"
+        android:enabled="true"
+        android:icon="@drawable/gas"
+        android:title="가스누수"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab5"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="CCTV"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>
