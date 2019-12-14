@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <!--<item
+      android:id="@+id/action_settings"
+      android:orderInCategory="100"
+      android:title="@string/action_settings"
+      app:showAsAction="never" />  //never은 동그라미 3개 짜리안에 들어가는것-->
+
+  <item
+      android:id="@+id/search_icon"
+      android:title="검색버튼"
+      android:icon="@drawable/search"
+      app:showAsAction="ifRoom"/> //ifRoom은 로고 같은 화면 찍어주기
+
+  <item android:id="@+id/like_icon"
+      android:title="보관함버튼"
+      android:icon="@drawable/heart"
+      app:showAsAction="ifRoom"/>
+
+</menu>

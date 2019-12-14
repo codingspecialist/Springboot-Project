@@ -1,0 +1,11 @@
+.cook_main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.bs_login_container {
+	margin-top: 100px;
+	padding: 0;
+	width: 600px;
+}

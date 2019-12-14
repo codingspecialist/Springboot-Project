@@ -1,0 +1,16 @@
+.cook_main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	height: 87.6vh;
+	width: 1200px;
+}
+
+.sidevar {
+	position: fixed;
+}

@@ -1,0 +1,46 @@
+server: 
+  port: 9000                                                                                                                                                                                                                                                                        
+  servlet:
+    context-path: /
+
+# 5.7 com.mysql.jdbc.Driver
+# 5.7 jdbc:mysql://localhost:3306/cos   
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bsym?serverTimezone=Asia/Seoul&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: cos
+    password: bitc5600
+    
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+      hibernate.enable_lazy_load_no_trans: true
+      
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+    
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  mail:
+    host: smtp.gamil.com
+    port: 587
+    protocol: smtp
+    default-encoding: UTF-8
+    username: smw631@gmail.com
+    password: ejwjr3602
+      
+
+        
+
+

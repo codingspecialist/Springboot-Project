@@ -1,0 +1,156 @@
+.cook_banner {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	width: 100%;
+}
+
+.cook_main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.cook_list_menu {
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+}
+
+.line_box {
+	position: relative;
+	font-size: 26px;
+	color: #333;
+	letter-spacing: -2px;
+	text-align: center;
+}
+
+.line_font {
+	background-color: #fff;
+	padding: 0 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.line_box::after {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #ed1c24;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+#sub_menu {
+	text-align: center;
+	padding: 35px 0 15px;
+}
+
+#sub_menu li {
+	position: relative;
+	display: inline-block;
+	padding: 0 22px;
+}
+
+#sub_menu li:after {
+	position: absolute;
+	top: 3px;
+	right: 0;
+	content: "";
+	display: block;
+	width: 1px;
+	height: 14px;
+	background-color: #333;
+}
+
+#sub_menu li:last-child:after {
+	display: none;
+}
+
+#sub_menu li a {
+	font-size: 14px;
+	color: #333;
+	font-weight: 500;
+}
+
+#sub_menu li.on a {
+	color: #e21b22;
+}
+
+.cook_list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.cook_board {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 250px;
+	height: 332px;
+}
+
+.cook_board_image {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 250px;
+	background-color: bisque;
+}
+
+.cook_board_image img {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 250px;
+}
+.cook_board_title_box{
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height:50px;
+	color: #268b6b ;
+	font-size: 16px;
+	font-weight: 900;
+}
+.cook_board_function_box {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.cook_board_Paging{
+	height : 50px;
+}
+.cook_board_function {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+.material-icons {
+	margin-top: 10px;
+	padding: 0;
+}
+
+.cook_board_function_font {
+	margin-top: 8px;
+	padding: 0;
+}

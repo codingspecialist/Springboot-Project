@@ -1,0 +1,26 @@
+.cook_main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.bs_login_container {
+	margin-top: 30px;
+	padding: 0;
+	width: 600px;
+}
+
+.radio_button {
+	margin-left: 70px;
+	margin-top: 14px;
+}
+
+.join_button {
+	margin-left: 140px;
+	display: inline-block;
+}
+
+.back_button {
+	margin-left: 50px;
+	display: inline-block;
+}

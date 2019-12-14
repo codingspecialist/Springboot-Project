@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390084388802",
+    "firebase_url": "https://bsymapp.firebaseio.com",
+    "project_id": "bsymapp",
+    "storage_bucket": "bsymapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390084388802:android:648494e2788aba19",
+        "android_client_info": {
+          "package_name": "org.techtown.bsymapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390084388802-91q56nc43dm8snkvaifptitjji8s4gcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPKRwh7Bj1DRN65V5AZFCVoOPOCzx0CmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390084388802-91q56nc43dm8snkvaifptitjji8s4gcu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

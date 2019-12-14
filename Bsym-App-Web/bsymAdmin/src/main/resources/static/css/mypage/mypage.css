@@ -1,0 +1,128 @@
+.cook_main {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+.bs_basket_container {
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	height: 1000px;
+}
+
+.basket_menu {
+	margin-top: 5px;
+	padding: 0;
+	width: 1200px;
+	height: 100px;
+}
+
+.basket_menu ul li a {
+	align-content: center;
+}
+
+.carousel .carousel-item {
+	width: 100%;
+}
+
+.cook_list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.cook_board {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 250px;
+	height: 332px;
+}
+
+.cook_board_image {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 250px;
+}
+
+.cook_board_image img {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 250px;
+}
+
+.cook_board_title_box {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	height: 50px;
+	color: #268b6b;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.cook_board_function_box {
+	margin: 0;
+	padding: 0;
+	width: 250px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.cook_board_function {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+.cook_board_function_like {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+.cook_board_function a {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+.core_skip_top {
+	position: fixed;
+	right: 8px;
+	bottom: 8px;
+	z-index: 100000;
+}
+
+.core_skip_top #btnSkipTop {
+	display: block;
+	overflow: hidden;
+	width: 76px;
+	height: 76px;
+	text-indent: -10000em;
+	background: #fff;
+	position: relative;
+	background: url('//pics.auction.co.kr/pc/common/header/header.png')
+		no-repeat -263px -735px;
+}
+
+.core_skip_top #btnSkipTop:hover, .core_skip_top #btnSkipTop:focus {
+	background-position: -263px -811px;
+}

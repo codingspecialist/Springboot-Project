@@ -1,0 +1,73 @@
+nav {
+	display: grid;
+	grid-template-columns: 4fr 2fr 4fr;
+	align-items: center;
+	height: 120px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(240, 114, 10);
+}
+
+.menu_bar_left {
+	margin-top: 0;
+	margin-left: 20px;
+	display: grid;
+	justify-content: left;
+	position: relative;
+}
+
+.menu_bar_left ul li a {
+	font-size: 2rem;
+	font-weight: 1000;
+}
+
+.nav-wrapper a img {
+	display: grid;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.menu_bar_right {
+	margin-top: 0;
+	margin-right: 20px;
+	display: grid;
+	justify-content: right;
+	position: relative;
+}
+
+.menu_bar_right ul li a {
+	font-size: 2rem;
+	font-weight: 1000;
+}
+
+/* 추가 css부분
+@media screen and (min-width:1291px) {
+	#nav-mobile {
+		display: block;
+	}
+}
+
+@media screen and (max-width:1291px) {
+	#nav-mobile {
+		display: none;
+	}
+	#dropdown_btn {
+		display: block;
+	}
+}
+
+@media screen and (min-width:1292px) {
+	#dropdown_btn {
+		display: none;
+	}
+}
+
+.menu_bar_left ul{
+	background-color: rgb(240, 114, 10);
+}
+
+.menu_bar_left ul li a {
+	color:white;
+}
+*/
