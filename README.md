@@ -13,12 +13,8 @@
 
 ## 독거노인관리 프로그램 웹+앱
 
-![blog](https://postfiles.pstatic.net/MjAxOTEyMTRfMTM3/MDAxNTc2MzIwODAxOTM5.Or9y8iBmxQBeBKtpG9bAae02L0ZxW3fpL0urvKX9PHcg.P3hOkqiNvdYCvBX4PXM71zF94E0dGPQ2hs4sYUH2E9og.JPEG.getinthere/Screenshot_11.jpg?type=w773)
-
 #### 웹
 - <https://www.youtube.com/watch?v=SFqyhcp_V4Y&list=PL93mKxaRDidGZJRIABnrBSoSjL-i7xyNp&index=3>
-
-![blog](https://postfiles.pstatic.net/MjAxOTEyMTRfMTI2/MDAxNTc2MzIwODAxOTQx.7lD2yfzXblhM56bXYan5IchIbC0nzn6wRT7h67u6sZAg.fcWDsUgW96aJ9vGJXS4jA2CyvkCQQ9oNLKdbRaDOfYsg.JPEG.getinthere/Screenshot_13.jpg?type=w773)
 
 ![blog](https://postfiles.pstatic.net/MjAxOTEyMTRfMTE4/MDAxNTc2MzIwODAxOTQ3.iG9-1v-2b36LVLYbnW5_SzsHxS92C-Svc2Cqx6WeWBgg.7hNwAnO9sXDH86gVTBawVH3Jng4KDX-Bt8uZZdNc14kg.JPEG.getinthere/Screenshot_14.jpg?type=w773)
 
